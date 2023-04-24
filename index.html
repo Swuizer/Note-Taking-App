@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1180px)" href="styleLaptop.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="stylePhone.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+
+            <h2>Short Notes</h2>
+            <ul>
+                <li class="item"><a href="#home" class="active">Home</a></li>
+            </ul>
+        </div>
+        <form class="right" role="search">
+            <input type="search" id="searchTxt" placeholder="search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">search</button>
+        </form>
+    </nav>
+    <div class="container">
+        <div id="hONE">Welcome To Short Notes</div>
+        <div class="boxContainer">
+            <!-- Left Section -->
+            <div class="box">
+                <div class="area">
+                    <label class="card-title" for="addTitle">Add Title</label>
+                    <input type="text" class="titleArea" id="addTitle" placeholder="Enter Title">
+                </div>
+                <div class="area">
+                    <label class="card-title" for="addTxt">Example textarea</label>
+                    <textarea class="textarea" id="addTxt" rows="1" placeholder="Write here..........."></textarea>
+                </div>
+                <button class="btn btn-primary" id="addBtn">Add Note</button>
+            </div>
+
+            <!-- Right Section -->
+            <div class='rightBox'>
+                <div class='boxInnerRight'>
+                    <p class='boxInnerRightText'><span class='Span'>N</span>OTA</p>
+                    <p class='para'>Note-taking made easy...</p>
+                    <button class='rightBtn' id="details">Your Post Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="border">
+    <h1 id="ber">Your Notes</h1>
+    <div id="notes" class="row" colomn="3">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

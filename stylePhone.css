@@ -1,0 +1,72 @@
+#logo{
+    flex-direction: column;
+}
+#logo h2{
+    font-size: 17px;
+}
+#logo ul{
+    margin: 17px -31px
+}
+#logo ul li a{
+    font-size: 14px;
+}
+#navbar .right{
+    display: flex;
+    flex-direction: column;
+}
+#navbar .right input{
+    border: 3px solid white;
+    padding: 4px 0px;
+    margin: 1px 2px 20px 1px;
+    font-size: 10px;
+}
+#navbar .right button{
+    padding: 3px 22px;
+    margin: 2px 2px 2px 58px;
+    font-size: 10px;
+}
+.container #hONE{
+    font-size: 24px;
+    margin: 2px 2px;
+}
+.boxContainer{
+    flex-direction: column;
+}
+.container .box{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.container .box .card-title{
+    font-size: 18px;
+}
+.container .box .titleArea{
+    width: 90%; 
+    font-weight: bold;
+}
+.container .box .area{
+    margin-bottom: 20px;
+}
+.container .box .textarea{
+   width: 90%;
+    font-weight: bolder;
+}
+.rightBox{
+    width: 100%;
+    margin: 0px 0px;
+    margin-top: 80px;
+}
+.container .box .btn-primary{
+    width: 100%;
+}
+#ber{
+    font-size: 19px;
+}
+.border{
+    width: 88%;
+    margin: 7px 20px;
+}
+.row{
+    grid-template-columns: 292px;
+    grid-gap: 1rem;
+}

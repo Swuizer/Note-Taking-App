@@ -1,0 +1,22 @@
+.container .box {
+    width: 40%;
+    box-sizing: border-box;
+}
+.container .box .card-title {
+    font-size: 18px;
+    display: block;
+}
+.rightBox{
+    width: 40%;
+    margin-bottom: 32px;
+}
+.boxContainer{
+    padding-top: 31px;
+}
+.border {
+    width: 80%;
+    margin: 7px 155px;
+}
+.row {
+    grid-template-columns: 271px 271px 271px;
+}

@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+    user-select: none;
+    overflow-x: hidden;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    color: white;
+    top: 0px;
+    z-index: 1;
+}
+#navbar::before{
+    content: "";
+    background-color: #59a0f7;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#logo{
+    display: flex;
+}
+#logo h2{
+    margin: 15px 9px;
+}
+#logo ul{
+    list-style: none;
+}
+#logo ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+#logo ul li a:hover,
+#logo ul li a.active{
+    text-decoration: underline;
+    /* color: o; */
+    opacity: 0.8;
+}
+#navbar .form{
+    display: grid;
+}
+#navbar .right{
+    position: absolute;
+    right: 2px;
+    display: inline-block;
+    padding: 0px 7px;
+}
+#navbar .right input{
+    background-color: transparent;
+    padding: 6px 6px;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#navbar .right input::placeholder{
+    color: white;
+}
+#navbar .right button{
+    padding: 7px 15px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    color: #59a0f7;
+    border: none;
+    border-radius: 5px;
+}
+#navbar .right button:hover{
+    background-color: #78f974;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+#hONE{
+    text-align: center;
+    font-size: 40px;
+    margin: 6px 2px;
+    color: #59a0f7;
+    font-weight: bold;
+}
+.boxContainer{
+    display: flex;
+    justify-content: space-between;
+}
+/* Left Section */
+.container .box{
+    text-align: left;
+    background-color: #59a0f7;
+    width: 50%;
+    padding: 10px;
+    padding: 50px 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.container .box .card-title{
+    font-size: 18px;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+.container .box .titleArea{
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    margin-top: 6px;
+    font-weight: bold;
+}
+.container .box .titleArea::placeholder{
+    color: white;
+}
+.container .box .area{
+    margin: 6px 0px;
+    margin-bottom: 35px;
+    padding: 0px 20px;
+}
+.container .box .area .card-title{
+    margin-top: 8px;
+}
+.container .box .textarea{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    outline: none;
+    font-weight: bolder;
+    resize: none;
+}
+.container .box .textarea::placeholder{
+    color: white;
+}
+.container .box .btn-primary{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    color: #59a0f7;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    justify-content: center;
+    padding: 10px 16px;
+}
+.container .box .btn-primary:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    font-weight: bold;
+    outline: none;
+}
+/* Right Section */
+.rightBox{
+    max-width: 100%;
+    width: 30%;
+    margin: 0px 20px;
+    margin-top: 50px;
+    position: relative;
+}
+.boxInnerRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #59a0f7;
+    height: 100%;
+    border-radius: 5px;
+    gap: 8px;
+}
+.boxInnerRightText{
+    color: white;
+    font-size: 36px;
+}
+.boxInnerRight .Span{
+    font-size: 72px; 
+}
+.boxInnerRight .para{
+    color: white;
+    font-size: 20px;
+}
+.boxInnerRight .rightBtn{
+    padding: 6px 12px;
+    background-color: white;
+    color: #59a0f7;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 16px 0;
+    font-weight: bold;
+}
+.boxInnerRight .rightBtn:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.border{
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: #59a0f7;
+}
+#ber{
+    text-align: center;
+    color: #59a0f7;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #59a0f7;
+    margin-bottom: 30px;
+}
+.noteCard{
+    display: inline-block;
+    background-color: rgb(196, 196, 7);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 4px 2px;
+    padding: 3px 14px;
+}
+.row .lastPara{
+    text-align: center;
+}
+.row .noteCard .btn-primary{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin: 8px 4px;
+    padding: 6px 16px;
+}
+.row .noteCard .deleteBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row .noteCard .card-title{
+   font-size: 20px;
+   font-weight: bold;
+}
+.row .noteCard .btn-primary:hover{
+    color: red;
+    background-color: white;
+    font-weight: bold;
+}
+.deleteBtn .Span{
+    font-size: 13px;
+}
